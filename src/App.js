@@ -23,6 +23,24 @@ function App() {
       type: "B",
       check: false,
     },
+    {
+      id: "e3",
+      title: "루랑",
+      amount: 999,
+      date: new Date(2022, 8, 22),
+      color: "#974715",
+      type: "A",
+      check: false, 
+    },
+    {
+      id: "e4",
+      title: "물티슈",
+      amount: 777,
+      date: new Date(2022, 12, 22),
+      color: "#285627",
+      type: "B",
+      check: false,
+    },
   ]);
 
   const getPaymentFormData = (data) => {
